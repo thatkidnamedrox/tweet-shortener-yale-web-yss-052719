@@ -17,8 +17,8 @@ def word_substituter(tweet)
   words.each do |word|
     w = word.downcase
     w = w.gsub(/[^0-9a-z]/i, '')
-    puts [w, keys.include?(w)]
-    puts keys.include?(w)
+    puts [w, keys.include?(w)].inspect
+    # puts keys.include?(w)
   end
 end
 
