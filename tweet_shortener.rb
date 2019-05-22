@@ -44,6 +44,4 @@ def bulk_tweet_shortener(tweets)
   tweets.collect do |tweet|
     result << word_substituter(tweet)
   end
-  puts result
-  result
 end
