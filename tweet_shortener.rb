@@ -27,7 +27,7 @@ def word_substituter(tweet)
 
     w+= word.gsub(/[0-9a-zA-Z]/i,'')
 
-    if (word != w) word = w end
+    if (word != w) (word = w) end
   end
 
   puts words
@@ -35,4 +35,3 @@ def word_substituter(tweet)
 end
 
 word_substituter("Hello you. I like you too.")
- 
