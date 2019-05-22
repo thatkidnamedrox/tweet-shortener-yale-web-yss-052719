@@ -32,7 +32,7 @@ def word_substituter(tweet)
     end
   end
 
-  puts words
+  # puts words
 
 end
 
