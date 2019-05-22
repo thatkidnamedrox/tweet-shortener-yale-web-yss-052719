@@ -12,7 +12,7 @@ def dictionary
 end
 
 def word_substituter(tweet)
-  puts tweet.split(" ")
+  words = tweer.split(" ")
 end
 
 word_substituter("Hello you. I like you too.")
