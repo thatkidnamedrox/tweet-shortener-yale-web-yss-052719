@@ -30,6 +30,8 @@ def word_substituter(tweet)
     end
   end
 
+  puts words
+
 end
 
 word_substituter("Hello you. I like you too.")
