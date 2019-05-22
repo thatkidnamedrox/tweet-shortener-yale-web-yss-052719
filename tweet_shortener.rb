@@ -15,6 +15,8 @@ def word_substituter(tweet)
   words = tweet.split(" ")
   words.each do |word|
     w = word.downcase
+    w = w.gsub(/[^0-9a-z]/i, '')
+
     puts w
   end
 end
