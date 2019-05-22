@@ -14,6 +14,7 @@ end
 def word_substituter(tweet)
   words = tweet.split(" ")
   keys = dictionary.keys
+  new_tweet = []
   words.collect do |word|
     w = word.gsub(/[^0-9a-zA-Z]/, '')
 
@@ -29,14 +30,11 @@ def word_substituter(tweet)
 
     if word != w
       word = w
-
     end
 
-    return word
-    puts word
+    new_tweet << word
   end
 
-  puts words
 
 end
 
