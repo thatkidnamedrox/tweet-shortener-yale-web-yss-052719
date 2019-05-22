@@ -35,7 +35,7 @@ def word_substituter(tweet)
     new_tweet << word
   end
 
-  puts new_tweet
+  puts new_tweet.join(" ")
 end
 
 word_substituter("Hello you. I like you too.")
