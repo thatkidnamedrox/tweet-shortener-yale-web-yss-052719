@@ -25,11 +25,7 @@ def word_substituter(tweet)
 
     w+= word.gsub(/[0-9a-z]/i,'')
 
-    if word != w
-      puts w
-      word = w
-      puts word
-    end
+    puts w
   end
 
   # puts words
