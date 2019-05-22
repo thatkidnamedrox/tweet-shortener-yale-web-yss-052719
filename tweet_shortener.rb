@@ -15,7 +15,7 @@ def word_substituter(tweet)
   words = tweet.split(" ")
   keys = dictionary.keys
   new_tweet = []
-  words.collect do |word|
+  words.each do |word|
     w = word.gsub(/[^0-9a-zA-Z]/, '')
 
     keys.each do |key|
