@@ -38,4 +38,4 @@ def word_substituter(tweet)
   new_tweet.join(" ")
 end
 
-word_substituter("Hello you. I like you too.")
+# word_substituter("Hello you. I like you too.")
