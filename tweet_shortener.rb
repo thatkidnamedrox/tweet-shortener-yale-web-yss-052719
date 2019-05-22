@@ -29,7 +29,7 @@ def word_substituter(tweet)
 
     if word != w
       word = w
-      puts w
+      puts word
     end
 
     word
