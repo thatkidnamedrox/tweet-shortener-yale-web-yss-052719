@@ -15,3 +15,5 @@ def word_substituter(tweet)
   dictionary = dictionary()
   #tweet_array = tweet.split(" ")
 end
+
+word_substituter("Hello you. I like you too.")
