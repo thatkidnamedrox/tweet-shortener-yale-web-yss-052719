@@ -39,14 +39,11 @@ def word_substituter(tweet)
 end
 
 def bulk_tweet_shortener(tweets)
+
   result = []
-  tweets.each do |tweet|
-    puts tweet
+  result = tweets.collect do |tweet|
+    word_substituter(tweet)
   end
-  # result = []
-  # result = tweets.collect do |tweet|
-  #   word_substituter(tweet.)
-  # end
-  # puts result
-  # result
+  puts result
+  result
 end
