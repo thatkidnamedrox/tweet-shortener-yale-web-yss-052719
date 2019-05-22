@@ -22,9 +22,9 @@ def word_substituter(tweet)
         w = dictionary[key]
         break
       end
-      puts w
-    end
 
+    end
+    puts w
     w+= word.gsub(/[0-9a-z]/i,'')
 
   end
