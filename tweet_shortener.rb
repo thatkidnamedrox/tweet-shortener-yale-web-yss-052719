@@ -16,6 +16,7 @@ def word_substituter(tweet)
   words.each do |word|
     w = word.lowercase
     puts w
+  end
 end
 
 word_substituter("Hello you. I like you too.")
