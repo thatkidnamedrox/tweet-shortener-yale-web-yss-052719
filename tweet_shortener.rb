@@ -20,6 +20,7 @@ def word_substituter(tweet)
     keys.each do |key|
       if key.include?(w)
         w = dictionary[key]
+        break
       end
     end
   end
