@@ -16,7 +16,7 @@ def word_substituter(tweet)
   keys = dictionary.keys
   new_tweet = []
   words.each do |word|
-    w = word.gsub(/[^0-9a-zA-Z]/, '')
+    w = word.gsub(/[^0-9a-zA-Z']/, '')
 
     keys.each do |key|
       if key.include?(w.downcase)
