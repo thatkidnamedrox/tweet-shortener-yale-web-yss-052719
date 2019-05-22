@@ -20,10 +20,12 @@ def word_substituter(tweet)
     keys.each do |key|
       if key.include?(w)
         w = dictionary[key]
+        puts w
         break
       end
     end
   end
+  
 end
 
 word_substituter("Hello you. I like you too.")
