@@ -20,9 +20,13 @@ def word_substituter(tweet)
     keys.each do |key|
       if key.include?(w)
         w = dictionary[key]
-        puts w
         break
       end
+    end
+
+    w+= word.gsub(/[0-9a-z]/i,'')
+    if word != w
+      word = w
     end
   end
 
