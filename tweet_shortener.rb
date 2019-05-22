@@ -30,7 +30,7 @@ def word_substituter(tweet)
     word == w ? (word = w) : (word)
   end
 
-  # puts words
+  puts words
 
 end
 
