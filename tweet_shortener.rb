@@ -29,12 +29,13 @@ def word_substituter(tweet)
 
     if word != w
       word = w
+      puts w
     end
 
     word
   end
 
-  puts words
+  # puts words
 
 end
 
