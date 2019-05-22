@@ -44,4 +44,5 @@ def bulk_tweet_shortener(tweets)
     word_substituter(tweet)
   end
   puts result
+  result
 end
