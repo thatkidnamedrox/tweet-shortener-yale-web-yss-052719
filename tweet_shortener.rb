@@ -18,7 +18,7 @@ def word_substituter(tweet)
     w = word.downcase
     w = w.gsub(/[^0-9a-z]/i, '')
 
-    puts w
+    puts keys.include?(w)
   end
 end
 
