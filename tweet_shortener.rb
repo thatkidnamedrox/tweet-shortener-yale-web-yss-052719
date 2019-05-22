@@ -14,7 +14,7 @@ end
 def word_substituter(tweet)
   words = tweet.split(" ")
   words.each do |word|
-    w = word.lowercase
+    w = word.downcase
     puts w
   end
 end
